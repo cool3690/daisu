@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-xl navbar-dark">
 		<div class="container mt-1">
-			<a class="navbar-brand justify-content-center mt-4 text-dark" href="index.php" id="logo">救急專家</a>
+			<a class="navbar-brand justify-content-center mt-4 text-dark" href="index.php" id="logo">LOGO救急專家</a>
 			<div>
 				<div class="short-div text-right">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

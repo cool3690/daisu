@@ -62,7 +62,7 @@
 	<div class="container">
 		<?php include_once ("navbar.php"); ?>
 	
-		<div class="container mb-3">	
+		<div class="container" style="padding-top:3%;">	
 						  <img class="d-block w-100" src="images/test.png" alt="Second slide">
 		<!--
 			<div class="col-sm-12 col-md-6 col-lg-12 mt-4">				
@@ -94,7 +94,7 @@
 				</div>
 				-->
 			</div>
-			<div class="mt-3 mb-3">
+			<div style="padding-top:2%;">
 				<form method="post" action="clsm_connect.php" style="padding-top:2%;padding-bottom:10%;padding-left:2%;padding-right:2%;">
 					<div class="text-center mb-5" style="letter-spacing:8px;">
 						<div class="form-group row">
@@ -156,8 +156,10 @@
 									</select>
 							</div>
 						</div>
+					</div> 
+					<div class="text-center">
+						<input type="submit" class="btn btn-warning" value="送出">
 					</div>
-						<input type="submit" class="btn btn-primary" value="送出">
 				</form>		
 			</div>			
 		</div>
