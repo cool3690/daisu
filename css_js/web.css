@@ -1,0 +1,121 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+	font-family:'Noto Sans TC';
+}
+
+/*navbar*/
+.navbar {		
+	margin-bottom: 0;
+	border: 0;
+	font-size: 18px !important;
+	letter-spacing: 3px;
+	opacity:1;
+	font-weight:bold;
+ }
+ 
+/*navbar文字顏色*/ 
+#navbardrop{
+	color: #000000 !important; 	
+}
+ 
+/* 滑鼠移至navbar自動底線效果 */
+.navbar-dark .navbar-nav > .active > a:hover,
+.navbar-dark .navbar-nav > li > a:hover {
+	color: #F3F3F3;
+	border-bottom: 0.25em solid #26D07C;
+}
+
+/* 滑鼠移至navbar自動展開 */
+.dropdown:hover > .dropdown-menu {
+	display: block;
+	margin: 0; 
+	padding: 0;
+	border-radius: 0px 0px 0px 0px;
+}
+
+/* navbar展開效果 */
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 200px;
+    opacity: 0.8;
+}
+
+.dropdown-menu > a{
+    background-color:#696969;
+	color:#ffffff !important; 
+	font-weight:bold;
+}
+
+/* 滑鼠移動到下拉式選單背景顏色、文字顏色效果 */
+.dropdown-menu > a:hover{
+    background-color:#000000;
+	color:#26D07C !important;
+    opacity: 0.9;
+}
+.dropdown-item{
+	height:40px;
+	
+}
+/* navbar手機模式三槓設定  */
+.navbar-toggler{
+	background-color:#26D07C;
+}
+
+/* 去超連結底線 */
+.container a{
+    text-decoration:none;	
+}
+
+/* 去超連結底線 */
+#top_a{
+    text-decoration:none;
+	font-weight:bold;
+	color:#000000;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/* 去超連結底線 */
+#order_a{
+    text-decoration:none;	
+	color:#000000;
+}
+
+/* 滑鼠移至navbar自動底線效果 */
+.news_div1, .news_div2, .news_div3, .news_div4{
+	border-right:2px solid #007799;	
+}
+.news_div2:hover{
+    background-color:#26D07C;
+	color:#ffffff;
+}
+
+.news_div2:hover #date{
+	color:#ffffff;	
+}
+
+#date, #date1, #date2, #date3, #date4{
+	font-size:12px;
+	color:#808080;	
+}
+
+
+/* 輪播 */
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+	margin-bottom:2%;
+}
+
