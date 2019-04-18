@@ -4,6 +4,9 @@
 	<?php include_once ("head.php"); ?>		
 </head>
 <body>
+<style>
+#floatDiv {width:120px; height:120px; background:white; position:absolute; right:0px;}
+</style>
 	<script>
 		$(document).ready(function(){
 			$("#myBtn").click(function(){
@@ -58,7 +61,27 @@
 				$("#myModal9").modal();
 			});
 		});	
+		//設定三種事件發生時執行(調整視窗大小、拉右側滾動軸、網頁載入後)
+window.onresize = window.onscroll = window.onload = function(){
+var fDiv = document.getElementById('floatDiv');    //取得網頁中的<DIV>區塊物件
+//取得瀏覽器的可視區距網頁頂端的距離(單位px)
+var scrollTop = window.pageYOffset; 
+//定時器，每隔30毫秒執行
+var intVal = setInterval(function(){
+//計算<DIV>物件在可視區的上緣=(視窗高度-DIV高度)/2
+var t=(window.innerHeight-fDiv.offsetHeight)/2;
+//計算漸變距離
+var iSpeed = Math.floor((fDiv.offsetTop-(scrollTop +t))/20);
+//當<DIV>物件已經移動到定位附近，停止計時器，<DIV>物件不再移動
+if(iSpeed<5) clearInterval(intVal);
+//移動<DIV>物件到經計算後漸變的位置
+fDiv.style.top = iSpeed+(scrollTop +t)+'px';;
+},30);
+}
 	</script>
+	<div id="floatDiv"> 
+<a href="http://line.me/ti/p/B678wA-ceg"> <img  src="images/line.png" width="120"  height="120" ><br></img><font size="4"><center>聯絡我們</center></font></a>
+</div> 
 	<div class="container">
 		<?php include_once ("navbar.php"); ?>
 	
@@ -94,6 +117,9 @@
 				</div>
 				-->
 			</div>
+			
+			<br>
+			<br><center><font size="6" color="blue">聯絡資訊</font></center>
 			<div style="padding-top:2%;">
 				<form method="post" action="clsm_connect.php" style="padding-top:2%;padding-bottom:10%;padding-left:2%;padding-right:2%;">
 					<div class="text-center mb-5" style="letter-spacing:8px;">
@@ -107,44 +133,9 @@
 								<input type="text" class="form-control" name="ee_phone" >
 							</div>
 						</div>
+						
 						<div class="form-group row">
-							<label class="col-lg-2">公&nbsp;&nbsp;&nbsp;&nbsp;司：</label>
-							<div class="col-lg-4">
-								<input type="text" class="form-control" name="owner">
-							</div>
-							<label class="col-lg-2">居住地：</label>
-							<div class="col-lg-4">
-								<select class="form-control" id="county">
-									<option value="基隆市">基隆市</option>
-									<option value="台北市">台北市</option>
-									<option value="新北市">新北市</option>
-									<option value="桃園市">桃園市</option>
-									<option value="新竹市">新竹市</option>
-									<option value="新竹縣">新竹縣</option>
-									<option value="苗栗縣">苗栗縣</option>
-									<option value="台中市">台中市</option>
-									<option value="彰化縣">彰化縣</option>
-									<option value="南投縣">南投縣</option>
-									<option value="雲林縣">雲林縣</option>
-									<option value="嘉義市">嘉義市</option>
-									<option value="嘉義縣">嘉義縣</option>
-									<option value="台南市">台南市</option>
-									<option value="高雄市">高雄市</option>
-									<option value="屏東縣">屏東縣</option>
-									<option value="台東縣">台東縣</option>
-									<option value="花蓮縣">花蓮縣</option>
-									<option value="宜蘭縣">宜蘭縣</option>
-									<option value="澎湖縣">澎湖縣</option>
-									<option value="金門縣">金門縣</option>
-									<option value="連江縣">連江縣</option>
-								</select>
-							</div>
-						</div>
-						<div class="form-group row">
-							<label class="col-lg-2">聯絡時間：</label>
-							<div class="col-lg-4">
-								<input type="text" class="form-control" name="supervision">
-							</div>
+							
 							<label class="col-lg-2">諮詢項目：</label>
 								<div class="col-lg-4">
 									<select class="form-control" id="item">
