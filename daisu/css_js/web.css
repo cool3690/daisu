@@ -119,10 +119,3 @@ body {
 	margin-bottom:2%;
 }
 
-#floatDiv {
-	width:100px; 
-	height:100px; 
-	background:white; 
-	position:absolute; 
-	right:0px;
-}
