@@ -8,59 +8,7 @@
 #floatDiv {width:120px; height:120px; background:white; position:absolute; right:0px;}
 </style>
 	<script>
-		$(document).ready(function(){
-			$("#myBtn").click(function(){
-				$("#myModal").modal();
-			});
-		});
-		
-		$(document).ready(function(){
-			$("#myBtn2").click(function(){
-				$("#myModal2").modal();
-			});
-		});
-		
-		$(document).ready(function(){
-			$("#myBtn3").click(function(){
-				$("#myModal3").modal();
-			});
-		});
-		
-		$(document).ready(function(){
-			$("#myBtn4").click(function(){
-				$("#myModal4").modal();
-			});
-		});
-		
-		$(document).ready(function(){
-			$("#myBtn5").click(function(){
-				$("#myModal5").modal();
-			});
-		});		
-		
-		$(document).ready(function(){
-			$("#myBtn6").click(function(){
-				$("#myModal6").modal();
-			});
-		});	
-		
-		$(document).ready(function(){
-			$("#myBtn7").click(function(){
-				$("#myModal7").modal();
-			});
-		});		
-		
-		$(document).ready(function(){
-			$("#myBtn8").click(function(){
-				$("#myModal8").modal();
-			});
-		});	
-		
-		$(document).ready(function(){
-			$("#myBtn9").click(function(){
-				$("#myModal9").modal();
-			});
-		});	
+			
 		//設定三種事件發生時執行(調整視窗大小、拉右側滾動軸、網頁載入後)
 window.onresize = window.onscroll = window.onload = function(){
 var fDiv = document.getElementById('floatDiv');    //取得網頁中的<DIV>區塊物件
@@ -87,35 +35,7 @@ fDiv.style.top = iSpeed+(scrollTop +t)+'px';;
 	
 		<div class="container" style="padding-top:3%;">	
 						  <img class="d-block w-100" src="images/test.png" alt="Second slide">
-		<!--
-			<div class="col-sm-12 col-md-6 col-lg-12 mt-4">				
-				<div id="carouselExampleIndicators" class="carousel slide"  data-interval="15000" data-ride="carousel" style="z-index:0;">
-					<ol class="carousel-indicators">
-						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-					</ol>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-						  <img class="d-block w-100" src="images/Ugo_-01.jpg" alt="Second slide">
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="images/Ugo_-02.jpg" alt="Second slide">
-						</div>					
-						<div class="carousel-item">
-							<img class="d-block w-100" src="images/Ugo_-03.jpg" alt="Third slide">
-						</div>
-					</div>
-					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-				-->
+		
 			</div>
 			
 			<br>
