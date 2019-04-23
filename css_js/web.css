@@ -22,11 +22,12 @@ body {
 .navbar-dark .navbar-nav > .active > a:hover,
 .navbar-dark .navbar-nav > li > a:hover {
 	color: #F3F3F3;
-	border-bottom: 0.25em solid #26D07C;
+	border-bottom: 5px solid #0066cc;
 }
 
 /* 滑鼠移至navbar自動展開 */
 .dropdown:hover > .dropdown-menu {
+  min-width:50px !important; 
 	display: block;
 	margin: 0; 
 	padding: 0;
@@ -53,7 +54,7 @@ body {
 }
 
 .dropdown-menu > a{
-    background-color:#696969;
+    background-color:#0066cc;
 	color:#ffffff !important; 
 	font-weight:bold;
 }
@@ -61,7 +62,7 @@ body {
 /* 滑鼠移動到下拉式選單背景顏色、文字顏色效果 */
 .dropdown-menu > a:hover{
     background-color:#000000;
-	color:#26D07C !important;
+	color:#0066cc !important;
     opacity: 0.9;
 }
 .dropdown-item{
@@ -70,7 +71,7 @@ body {
 }
 /* navbar手機模式三槓設定  */
 .navbar-toggler{
-	background-color:#26D07C;
+	background-color:#0066cc;
 }
 
 /* 去超連結底線 */
@@ -95,10 +96,10 @@ body {
 
 /* 滑鼠移至navbar自動底線效果 */
 .news_div1, .news_div2, .news_div3, .news_div4{
-	border-right:2px solid #007799;	
+	border-right:2px solid #0066cc;	
 }
 .news_div2:hover{
-    background-color:#26D07C;
+    background-color:#0066cc;
 	color:#ffffff;
 }
 

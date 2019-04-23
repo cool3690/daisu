@@ -28,18 +28,18 @@ fDiv.style.top = iSpeed+(scrollTop +t)+'px';;
 }
 	</script>
 	<div id="floatDiv"> 
-<a href="http://line.me/ti/p/B678wA-ceg"> <img  src="images/line.png" width="120"  height="120" ><br></img><font size="4"><center>聯絡我們</center></font></a>
+<a href="http://line.me/ti/p/B678wA-ceg" target="_blank"> <img  src="images/line.png" width="120"  height="120" ><br></img><font size="4"><center>聯絡我們</center></font></a>
 </div> 
 	<div class="container">
 		<?php include_once ("navbar.php"); ?>
 	
 		<div class="container" style="padding-top:3%;">	
-						  <img class="d-block w-100" src="images/test.png" alt="Second slide">
+			<img class="d-block w-100" src="images/test.png" alt="Second slide">
 		
 			</div>
 			
 			<br>
-			<br><center><font size="6" color="blue">聯絡資訊</font></center>
+			<br><b><center><font size="6" color="blue">聯絡資訊</font></center></b>
 			<div style="padding-top:2%;">
 				<form method="post" action="clsm_connect.php" style="padding-top:2%;padding-bottom:10%;padding-left:2%;padding-right:2%;">
 					<div class="text-center mb-5" style="letter-spacing:8px;">
