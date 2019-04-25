@@ -17,19 +17,19 @@
 					</li>
 					
 					<li class="nav-item dropdown" id="nav_c" style="width:180px;">
-						<a class="nav-link text-center" id="navbardrop" href="#.php">民間代書貸款</a>
+						<a class="nav-link text-center" id="navbardrop" href="index.php">民間代書貸款</a>
 					</li>
 					
 					<li class="nav-item dropdown" id="nav_c" style="width:180px;">
-						<a class="nav-link text-center" id="navbardrop" href="#">土地一二胎借款</a>
+						<a class="nav-link text-center" id="navbardrop" href="index.php">土地一二胎借款</a>
 					</li>
 
 					<li class="nav-item dropdown" id="nav_c" style="width:130px;">
-						<a class="nav-link text-center" id="navbardrop" href="#.php">房屋二胎</a>
+						<a class="nav-link text-center" id="navbardrop" href="index.php">房屋二胎</a>
 					</li>
 
 					<li class="nav-item dropdown" id="nav_c" style="width:130px;">
-						<a class="nav-link text-center" id="navbardrop" href="#.php">民間車貸</a>
+						<a class="nav-link text-center" id="navbardrop" href="index.php">民間車貸</a>
 					</li>
 					
 					<li class="nav-item dropdown" id="nav_c" style="width:130px;">
