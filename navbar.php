@@ -34,7 +34,10 @@
 					
 					<li class="nav-item dropdown" id="nav_c" style="width:130px;">
 						<a class="nav-link text-center" id="navbardrop" href="contact.php">聯絡我們</a>
-					</li>				
+					</li>		
+					<li class="nav-item dropdown" id="nav_c" style="width:130px;">
+						<a class="nav-link text-center" id="navbardrop" href="login.php">員工登入</a>
+					</li>	
 				</ul>
 			</div>
 		</div>
